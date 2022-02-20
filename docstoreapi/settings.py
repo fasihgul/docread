@@ -94,8 +94,8 @@ DATABASES = {
         'NAME': 'dbdocstore',
         'USER':'fasihgul',
         'PASSWORD':'alpha123',
-        'HOST': 'localhost',
-        'PORT':''
+        # 'HOST': 'localhost',
+        # 'PORT':''
     }
 }
 
