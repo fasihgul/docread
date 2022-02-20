@@ -86,7 +86,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'project_name/static')
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-import dj_database_url.config()
+import dj_database_url
 
 DATABASES = {
     'default': {
