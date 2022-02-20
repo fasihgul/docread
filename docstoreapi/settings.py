@@ -94,7 +94,7 @@ DATABASES = {
         'NAME': 'dbdocstore',
         'USER':'fasihgul',
         'PASSWORD':'alpha123',
-        'HOST': 'postgres://axxapmbxuqpzts:61460a9ffb6a0fe665ab6352e17450cee895d63ccb9cdb0a8a190b416ca37883@ec2-3-227-195-74.compute-1.amazonaws.com:5432/d6b231gj1kbr41',
+        'HOST': 'http://axxapmbxuqpzts:61460a9ffb6a0fe665ab6352e17450cee895d63ccb9cdb0a8a190b416ca37883@ec2-3-227-195-74.compute-1.amazonaws.com:5432/d6b231gj1kbr41',
         'PORT':''
     }
 }
