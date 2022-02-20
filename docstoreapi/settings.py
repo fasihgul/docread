@@ -94,7 +94,7 @@ DATABASES = {
         'NAME': 'dbdocstore',
         'USER':'fasihgul',
         'PASSWORD':'alpha123',
-        # 'HOST': 'localhost',
+        'HOST': dj_database_url.config(),
         # 'PORT':''
     }
 }
