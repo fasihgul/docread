@@ -86,7 +86,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'project_name/static')
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-import dj_database_url
+import dj_database_url.config()
 
 DATABASES = {
     'default': {
@@ -99,6 +99,8 @@ DATABASES = {
     }
 }
 
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
