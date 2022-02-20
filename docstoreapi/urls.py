@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from docstoreapp.views import * 
-
+from django.views.static import serve 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('addtopics/',AddTopics.as_view()),
